@@ -1,0 +1,13 @@
+img {
+  transition: 1.5s;
+}
+
+input:checked~img {
+  /* 1. Nếu muốn biến mất khỏi giao diện */
+  /* display: none; */
+  /* 2. Biến mất khỏi giao diện nhưng vẫn chiếm vị trí */
+  /* visibility: hidden; */
+  /* 3. Làm mờ đi (không tương tác được thì thêm Visibility) */
+  opacity: 0;
+  /* visibility: hidden; */
+}

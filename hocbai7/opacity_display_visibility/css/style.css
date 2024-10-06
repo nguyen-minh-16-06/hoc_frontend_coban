@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/hinhanh1.jpg)
+}
+
+h2 {
+    /* 1. OPACITY */
+    /* opacity: 0%; */
+    /* Kiểm soát độ trong suốt của giao diện */
+    /* 0.0 -> 1.0 
+       0% -> 100%*/
+    /* background-color: red; */
+
+    /* 2. DISPLAY */
+    /* display: none; */
+    /* Khi để display: none - Ẩn phần tử khỏi giao diện (xoá cả không gian nó đang chiếm) */
+
+    /* 3. VISIBILITY */
+    /* Ẩn hoặc hiện element */
+    visibility: hidden;
+    /* ẩn */
+    /* visibility: visible; */
+    /* hiện */
+
+    /* - Không nhìn thấy trên giao diện
+       - Vẫn chiếm không gian
+       - Không tương tác được */
+}
+span {
+    visibility: visible;
+}

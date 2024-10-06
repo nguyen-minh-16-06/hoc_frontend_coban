@@ -1,0 +1,22 @@
+/* (#) Để gọi id */
+#dv2 {
+    color: red;
+    font-size: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+/* (.) Để gọi class */
+.demo {
+    color: greenyellow;
+}
+
+.demo2 {
+    font-size: 40px;
+}
+
+.item_ul_1 {
+    list-style: none;
+}

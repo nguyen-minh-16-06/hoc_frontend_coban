@@ -1,0 +1,11 @@
+OPACITY: 0;
+DISPLAY: none;
+visibility: hidden;
+So sánh 3 thuộc tính:
+1. Ẩn khỏi giao diện: O, D, V
+2. Chiếm không gian: O, V
+3. Có thể tương tác: O
+4. Ẩn phần tử con: O, D, V
+5. Tính thừa kế: V
+6. Hiển thị phần tử con: V
+7. Hỗ trợ Animations: O, V

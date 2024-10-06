@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập COLSPAN</title>
+</head>
+
+<body>
+    <table>
+        <!-- thead>tr>th*3 => như bên dưới (xài emmet) -->
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>Số lượng còn lại</th>
+            </tr>
+        </thead>
+        <!-- tbody>tr*3>td*3 => như bên dưới (xài emmet) -->
+        <tbody>
+            <tr>
+                <td>Áo thun nam</td>
+                <td>100.000VNĐ</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Quần jean nữ</td>
+                <td>200.000VNĐ</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Giày thể thao</td>
+                <td>300.000VNĐ</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <!-- tfoot>tr>td*2 => như bên dưới (xài emmet) -->
+
+        <tfoot>
+            <tr>
+                <td>Remark</td>
+                <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

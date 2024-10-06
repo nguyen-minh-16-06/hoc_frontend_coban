@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+
+<body>
+    <h1>HỌC TABLE</h1>
+    <!-- Sử dụng cặp thẻ <table></table> để tạo bảng -->
+    <table>
+        <!-- <thead></thead> (table header): Định nghĩa cho phần đầu của bảng
+            Thường chứa các ô tiêu đề ("td") của các cột trong bảng. -->
+        <thead>
+            <!-- <tr></tr> (table row): Đại diện cho một hàng trong bảng HTML -->
+            <tr>
+                <!-- <th></th> (table header): Đại diện cho một ô tiêu đề trong bảng -->
+                <th>TÊN SẢN PHẨM</th>
+                <th>GIÁ</th>
+            </tr>
+        </thead>
+        <!-- <tbody></tbody> (table body): Định nghĩa phần thân của bảng
+            Thường chứa các thẻ "tr" và các ô dữ liệu ("td") tương ứng -->
+        <tbody>
+            <tr>
+                <!-- <td></td> (table data): Đại diện cho một ô dữ liệu trong bảng -->
+                <td>ÁO BOMBER</td>
+                <td>100.000</td>
+            </tr>
+            <tr>
+                <!-- <td></td> (table data): Đại diện cho một ô dữ liệu trong bảng -->
+                <td>QUẦN JEAN</td>
+                <td>200.000</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot></tfoot> (table footer): Định nghĩa cho phần cuối của bảng
+            Thường chứa các ô chú thích, tổng kết, hoặc thông tin cuối cùng về bảng -->
+        <tfoot>
+            <tr>
+                <td>TỔNG CỘNG</td>
+                <td>300.000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- Tóm lại <thead></thead>, <tbody></tbody> hay <tfoot></tfoot>:
+        - Được sử dụng cho mục đích screen reader (dành cho người khiếm thị)
+        - Hỗ trợ tốt hơn cho công cụ tìm kiếm, 
+        - Cấu trúc bảng rõ ràng -->
+</body>
+
+</html>

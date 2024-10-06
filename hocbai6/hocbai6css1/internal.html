@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Có thể kết hợp 2 thẻ cùng với nhau bằng cách:
+        h1, p {
+            } */
+        h1,
+        p {
+            color: aqua;
+            font-style: italic;
+        }
+
+        p {
+            color: yellowgreen;
+            font-style: unset;
+        }
+    </style>
+    <title>INTERNAL</title>
+</head>
+
+<body>
+    <!-- INTERNAL (CSS Nội tuyến) Là cách viết mã CSS trong cặp thẻ style (đặt trong khối head) 
+    Syntax: Đưa thẻ <style></style> vào <head> và gõ:
+        h1,
+        p {
+            ...
+        }
+    -->
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <!-- Ưu điểm: 
+        Code tách biệt với phần tử, có thể áp dụng với toàn trang (như ví trên: áp dụng với thẻ h1)
+         Nhược điểm: 
+        Vẫn khó quản lý khi dự án lớn, quá nhiều mã CSS để làm tệp HTML trở nên cồng kềnh
+         -->
+
+</body>
+
+</html>

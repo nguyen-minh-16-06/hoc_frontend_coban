@@ -1,0 +1,14 @@
+h1 {
+    /* màu chữ */
+    color: blue;
+    /* kiểu chữ */
+    font-style: italic;
+    /* font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /* chuyển đổi viết hoa viết thường */
+    text-transform: capitalize;
+    /* định dạng văn bản */
+    text-align: center;
+    /* cỡ chữ */
+    font-size: 40px;
+}
