@@ -1,0 +1,4 @@
+/* title~="Minh": Chọn tất cả các thuộc tính "title" có chứa từ "Minh" trong giá trị */
+[title~="Minh"] {
+    color: red;
+}

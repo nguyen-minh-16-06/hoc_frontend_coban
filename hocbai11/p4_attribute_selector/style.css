@@ -1,0 +1,5 @@
+/* title|="Minh": Chọn tất cả các thẻ có thuộc tính: 
+    "title" có từ duy nhất bắt đầu bằng từ "Minh": Minh, Minh-khoai-to,.. */
+[title|="Minh"] {
+    color: pink;
+}

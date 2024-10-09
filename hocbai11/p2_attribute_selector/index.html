@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Attribute~=value</title>
+</head>
+
+<body>
+    <!-- title~="Minh": Chọn tất cả các thẻ có thuộc tính "title" có chứa từ "Minh" trong giá trị -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh đẹp trai">Ndung 1</a>
+
+    <!-- Ở trường hợp này, "Minhz": Nếu có thêm "z" thì không phải là chỉ mỗi riêng từ "Minh" 
+    nên sẽ không được tác động -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minhz đẹp trai">Ndung 2</a><br>
+
+    <!-- Cũng tương tự như trên, nếu có "~" ở phía trước Minh thì không được coi là mỗi từ "Minh" nên
+    cũng sẽ không được tác động -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="~Minh đẹp trai">Ndung 3</a>
+
+    <!-- Ở trường hợp này abc được tách biệt ra Minh, mặc dù abc đứng trước nhưng vẫn có chứa từ "Minh"
+    nên vẫn tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_self" title="abc Minh">Ndung 4</a>
+</body>
+
+</html>

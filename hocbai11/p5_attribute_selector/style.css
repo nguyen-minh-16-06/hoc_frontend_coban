@@ -1,0 +1,5 @@
+/* title^="Minh": "title" bắt đầu bằng từ "Minh" (Không quan tâm có space hay không)
+có thể có nhiều từ đằng sau, ví dụ: Minh123, Minhz15 đẹp zai,...*/
+[title^="Minh"] {
+    color: pink;
+}

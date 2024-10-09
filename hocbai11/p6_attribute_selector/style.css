@@ -1,0 +1,6 @@
+/* title$="Minh be": Chọn tất cả các thẻ có thuộc tính 
+    "title" kết thúc bằng ký tự "e"
+    Ví dụ: abc Minh ku be, abc Minh ze , Minh3 e,... */
+[title$="e"] {
+    color: pink;
+}

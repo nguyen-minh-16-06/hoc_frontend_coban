@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATTRIBUTE|=VALUE</title>
+</head>
+
+<body>
+    <!-- title|="Minh": Chọn tất cả các thẻ có thuộc tính:
+     "title" có từ duy nhất bắt đầu bằng từ "Minh"
+     Ví dụ: Minh, Minh-khoai-to,... -->
+
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh">Nội dung 1</a>
+
+    <!-- Có thể hiểu là 1 từ duy nhất, bắt đầu bằng "Minh", sau "Minh" phải được nối bằng dấu gạch ngang "-" -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh-khoai-to">Nội dung 2</a>
+
+    <!-- Ở trường hợp này "Minh" không nằm đầu tiên nên cũng không được tác động -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Nguyên Minh">Nội dung 3</a>
+
+    <!-- Ở trường hợp này bắt đầu bằng "Minh" nhưng đằng sau không có các gạch "-" nối thì cũng không được tác động -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh khoai to">Nội dung 4</a>
+
+    <!-- Ở trường hợp này "Minh" đứng đầu tiên nhưng đây là chuỗi "Minh16", chứ không phải "Minh" -->
+    <a href="http://facebook.com/nguyenminh1606" target="_self" title="Minh16">Nội dung 5</a>
+</body>
+
+</html>

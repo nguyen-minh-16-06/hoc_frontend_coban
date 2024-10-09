@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATTRIBUTE*=VALUE</title>
+</head>
+
+<body>
+    <!-- title*="Minh": Chọn tất cả các thẻ có thuộc tính "title" có chứa chuỗi "Minh" trong giá trị
+     Ví dụ: Minh 160605, Minhzzz, abcMinh, abc Minh,... -->
+
+    <!-- Ở trường hợp này có chuỗi kí tự "Minh" 160605 nên tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh 160605">Ndung 1</a>
+
+    <!-- Ở trường hợp này cũng có chuỗi kí tự "Minh"zzz nên vẫn tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minhzzz">Ndung 2</a><br>
+
+    <!-- Ở trường hợp này cũng có chuỗi kí tự abc "Minh" nên vẫn tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="abc Minh">Ndung 3</a>
+
+    <!-- Ở trường hợp này không có chuỗi kí tự "Minh" nào cả nên không thể tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_self" title="abcxyz">Ndung 4</a>
+
+    <!-- Ở trường hợp này có chuỗi kí tự abc"Minh" nên có thể tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="abcMinh">Ndung 5</a>
+
+    <!-- Ở trường hợp này không có title nào có chuỗi kí tự mang tên "Minh" nên không thể tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606">Ndung 6</a>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATTRIBUTE^=VALUE</title>
+</head>
+
+<body>
+    <!-- title^="Minh": Chọn tất cả các thẻ có thuộc tính:
+    "title" bắt đầu bằng từ "Minh" (Không quan tâm có space hay không)
+    có thể có nhiều từ đằng sau, ví dụ: Minh123, Minhz15 đẹp trai,... -->
+
+    <!-- Ở trường hợp này, bắt đầu bằng từ "Minh" nên sẽ tác động lên được -->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh">Nội dung 1</a>
+
+    <!-- Ở trường hợp này, cũng bắt đầu bằng từ "Minh" mặc dù phía sau có dấu "-" vẫn tác động lên được-->
+    <a href="http://facebook.com/nguyenminh1606" target="_self" title="Minh-khoai-to">Nội dung 2</a>
+
+    <!-- Ở trường hợp này, không bắt đầu bằng từ Nguyên "Minh" mà bắt đầu bằng từ "Nguyên" 
+    nên không thể tác động lên được-->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Nguyên Minh">Nội dung 3</a>
+
+    <!-- Ở trường hợp này, cũng không bắt đầu bằng từ abc"Minh" mà bắt đầu bằng từ "abc" 
+    nên không thể tác động lên được-->
+    <a href="http://facebook.com/nguyenminh1606" target="_self" title="abcMinh">Nội dung 4</a>
+
+    <!-- Ở trường hợp này, bắt đầu bằng từ "Minh" mặc dù phía sau không có dấu "-" 
+    hay thậm chí "space" đằng sau thì vẫn tác động lên được-->
+    <a href="http://facebook.com/nguyenminh1606" target="_blank" title="Minh khoai to">Nội dung 5</a>
+
+    <!-- Ở trường hợp này, bắt đầu bằng từ "Minh"16 06, mặc dù phía sau có số đi kèm theo 
+    nhưng vẫn tác động lên được-->
+    <a href="http://facebook.com/nguyenminh1606" target="_self" title="Minh16 06">Nội dung 6</a>
+
+</body>
+
+</html>
