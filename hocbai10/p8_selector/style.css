@@ -1,0 +1,9 @@
+/* h1 ~ h3: Chọn tất cả thẻ <h3> nằm sau thẻ <h1> (không quan tâm có sát ngay không
+chỉ cần đứng sau <h1> là tác động lên) */
+h1~h3 {
+    color: blue;
+}
+
+div~div {
+    color: red;
+}

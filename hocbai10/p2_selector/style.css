@@ -1,0 +1,6 @@
+/* *: Áp dụng cho toàn thẻ trên html */
+* {
+    background-color: yellow;
+    color: blue;
+    font-size: 24px;
+}

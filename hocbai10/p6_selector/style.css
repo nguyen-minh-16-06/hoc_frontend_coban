@@ -1,0 +1,9 @@
+/* div > p: Tác động vào thẻ con trực tiếp sau thẻ <div> */
+div>p {
+    color: blue;
+}
+
+/* block > p: Tác động vào thẻ con trực tiếp sau thẻ <block> */
+block>p {
+    color: red;
+}
