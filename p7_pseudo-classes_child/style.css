@@ -1,0 +1,26 @@
+/* SELECTOR:NTH-CHILD(N)
+p:nth-child(2) : Chọn các thẻ <p> là thẻ con thứ hai từ trên xuống */
+p:nth-child(2) {
+    color: pink;
+}
+
+/* odd: nhảy theo n lẻ */
+p:nth-child(odd) {
+    color: blue;
+    font-size: 20px;
+}
+
+/* even: nhảy theo n chẵn */
+/* p:nth-child(even) {
+    color: red;
+    font-size: 20px;
+} */
+
+/* 2n+1: nhảy theo step mong muốn
+n = 0 -> 1
+n = 1 -> 3
+n = 2 -> 5 */
+/* p:nth-child(2n+1) {
+    color: chocolate;
+    font-size: 20px;
+} */

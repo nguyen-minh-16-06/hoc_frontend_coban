@@ -1,0 +1,13 @@
+/* Khi không có nội dung bên trong div thì nó sẽ hiện màu blue nhờ thẻ giả empty */
+.div_elm:empty {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+/* Khi có nội dung bên trong div thì nó sẽ hiện màu red */
+.div_elm {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
