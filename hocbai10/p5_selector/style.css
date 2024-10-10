@@ -1,9 +1,9 @@
-/* div space p: Tác động vào toàn bộ thẻ p nằm trong thẻ div (hay gọi p là con của div) */
+/* div space p (div p): Tác động vào toàn bộ thẻ <p> nằm trong thẻ div (hay gọi p là con của div) */
 div p {
     color: blue;
 }
 
-/* .loichuc space p: Chọn tất cả thẻ p trong class .loichuc */
+/* .loichuc space p (.loichuc p): Tác động vào toàn bộ thẻ <p> trong class .loichuc */
 .loichuc p {
     font-size: 30px;
 }

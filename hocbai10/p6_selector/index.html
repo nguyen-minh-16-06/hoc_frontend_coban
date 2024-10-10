@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>> SELECTOR</title>
+    <title> > SELECTOR</title>
 </head>
 
 <body>
+    <!-- element1 > element2: Chọn tất cả các thẻ "element2" là con trực tiếp của thẻ "element1"
+     Ví dụ: div > p: Tác động vào toàn bộ thẻ con <p> trực tiếp trong thẻ <div> -->
 
     <!-- Các thẻ h1, h2, h3 là con trực tiếp của thẻ <body> -->
     <h1 class="demo">Tuổi trẻ</h1>
+
     <!-- Emmet: h2.demo -->
     <h2 class="demo">Tiền không có</h2>
+
     <!-- Emmet: h3.demo.demo2 -->
     <h3 class="demo demo2">Quan hệ chưa có</h3>
+
     <!-- h3#line_4{Đến cả tự tin cũng không có} -->
     <h3 id="line_4">Đến cả tự tin cũng không có</h3>
     <h3>Vậy bạn có cái gì?</h3>
 
-    <!-- Thẻ <div> này là con trực tiếp của thẻ <body> -->
     <!-- Emmet: div>p*3{Đoạn văn $} -->
-    <div>
-        <!-- Toàn bộ thẻ <p> là con trực tiếp của thẻ <div> -->
-        <p>Đoạn văn 1</p>
+    <div> <!-- Thẻ <div> này là con trực tiếp của thẻ <body> -->
+
+        <p>Đoạn văn 1</p> <!--Thẻ <p> này là con trực tiếp của thẻ <div> -->
         <block>
-            <!-- Thẻ <p> này là con trực tiếp của thẻ <block> -->
-            <p>Đoạn văn thêm</p>
+            <p>Đoạn văn thêm</p><!-- Nhưng thẻ <p> này là con trực tiếp của thẻ <block> -->
         </block>
-        <p>Đoạn văn 2</p>
-        <p>Đoạn văn 3</p>
+        <p>Đoạn văn 2</p> <!--Thẻ <p> này cũng là con trực tiếp của thẻ <div> -->
+        <p>Đoạn văn 3</p> <!--Thẻ <p> này cũng là con trực tiếp của thẻ <div> -->
     </div>
 
-    <!-- Thẻ <div> này là con trực tiếp của thẻ <body> -->
     <!-- Emmet: div.loichuc>p*2{Chúc các bạn học tốt $} -->
-    <div class="loichuc">
+    <div class="loichuc"> <!-- Thẻ <div> này cũng là con trực tiếp của thẻ <body> -->
+
         <!-- Toàn bộ thẻ <p> là con trực tiếp của thẻ <div> -->
         <p>Chúc các bạn học tốt 1</p>
         <p>Chúc các bạn học tốt 2</p>

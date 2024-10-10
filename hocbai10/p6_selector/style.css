@@ -1,9 +1,14 @@
-/* div > p: Tác động vào thẻ con trực tiếp sau thẻ <div> */
+/* div > p: Tác động vào toàn bộ thẻ con <p> trực tiếp trong thẻ <div> */
 div>p {
     color: blue;
 }
 
-/* block > p: Tác động vào thẻ con trực tiếp sau thẻ <block> */
+/* block > p: Tác động vào toàn bộ thẻ con <p> trực tiếp trong thẻ <block> */
 block>p {
     color: red;
+}
+
+/* .loichuc > p: Tác động vào thẻ con <p> trực tiếp trong thẻ <div> có class là "loichuc" */
+.loichuc>p {
+    color: pink;
 }

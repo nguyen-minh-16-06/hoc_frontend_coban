@@ -1,9 +1,9 @@
-/* h1 + h2: Chọn thẻ h2 đứng ngay sau thẻ h1 */
+/* h1 + h2: Chọn thẻ <h2> đứng ngay sau thẻ <h1> */
 h1+h2 {
     color: red;
 }
 
-/* h3 + #line_4 */
+/* h3 + #line_4: Chọn id #line4 đứng ngay sau thẻ <h3> */
 .demo.demo2+h3 {
     color: blue;
 }

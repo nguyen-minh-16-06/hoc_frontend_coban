@@ -1,5 +1,5 @@
 /* element,element 
-Chọn tất cả các thẻ p, .demo (Class có tên là demo), #title(ID có tên là title)*/
+Chọn tất cả các thẻ p, .demo(Class có tên là demo), #title(ID có tên là title) để tác động lên*/
 p,
 .demo,
 #title {
@@ -8,6 +8,6 @@ p,
 
 /* class.class */
 .demo.demo2 {
-    /* chọn thẻ có tên class là demo và demo2*/
+    /* chọn đồng thời thẻ có tên class là demo và demo2*/
     color: blue;
 }
