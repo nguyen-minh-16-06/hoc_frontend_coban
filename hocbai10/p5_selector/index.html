@@ -22,16 +22,19 @@
 
 
     <!-- Emmet: div>p*3{Đoạn văn $} -->
-    <!-- div space p (div p): Tác động vào toàn bộ thẻ <p> nằm trong thẻ <div> (hay gọi p là con của div) -->
+    <!-- div p: Tác động vào toàn bộ thẻ <p> nằm trong thẻ <div> (hay gọi p là con của div) -->
     <div>
         <p>Đoạn văn 1</p>
+        <block>
+            <p>Thẻ p nằm trong thẻ block</p>
+        </block>
         <p>Đoạn văn 2</p>
         <p>Đoạn văn 3</p>
     </div>
 
 
-    <!-- Emmet: div>div.loichuc>p*2{Chúc các bạn học tốt $} -->
-    <!-- .loichuc space p (.loichuc p): Tác động vào toàn bộ thẻ <p> trong class .loichuc -->
+    <!-- Emmet: div>.loichuc>p*2{Chúc các bạn học tốt $} -->
+    <!-- .loichuc p: Tác động vào toàn bộ thẻ <p> trong class .loichuc -->
     <div>
         <div class="loichuc">
             <p>Chúc các bạn học tốt 1</p>

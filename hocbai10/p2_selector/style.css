@@ -1,6 +1,6 @@
-/* *: Áp dụng cho toàn thẻ trên html */
+/* *: Áp dụng cho toàn bộ các thẻ (element) trên html */
 * {
-    background-color: yellow;
+    background-color: pink;
     color: blue;
     font-size: 24px;
 }

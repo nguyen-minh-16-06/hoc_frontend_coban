@@ -3,7 +3,12 @@ h1+h2 {
     color: red;
 }
 
-/* h3 + #line_4: Chọn id #line4 đứng ngay sau thẻ <h3> */
+/* .demo.demo2 + #line_4: Chọn id #line4 đứng ngay sau thẻ <h3> có class là demo demo2 */
 .demo.demo2+h3 {
     color: blue;
+}
+
+/* #line4 + h3: Chọn thẻ <h3> đứng ngay sau id #line4 */
+#line_4+h3 {
+    color: pink;
 }

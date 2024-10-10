@@ -4,6 +4,10 @@ h1~h3 {
     color: blue;
 }
 
-div~div {
+/* div~div {
     color: red;
+} */
+
+div~p{
+    color: pink;
 }
