@@ -1,5 +1,0 @@
-/* p:only-of-type : Chọn các loại thẻ <p> xuất hiện duy nhất trong thẻ cha */
-p:only-of-type {
-    color: pink;
-    font-size: 30px;
-}
