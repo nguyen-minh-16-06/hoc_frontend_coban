@@ -1,5 +1,0 @@
-/* SELECTOR:ACTIVE: Chọn các thẻ selector (p, h1->h6, a, img,...) khi nhấn giữ chuột */
-.demo:active {
-    color: pink;
-    font-size: 20px;
-}
