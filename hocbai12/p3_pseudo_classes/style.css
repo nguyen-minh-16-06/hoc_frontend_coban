@@ -1,0 +1,13 @@
+/* SELECTOR:LINK
+Chọn các thẻ <a> có liên kết chưa click vào
+Tác dụng lên selector khi chưa click vào truy cập */
+.click_me:link {
+    color: chocolate;
+}
+
+/* SELECTOR:VISITED
+Chọn các thẻ <a> có liên kết đã click truy cập
+Tác động lên selector khi đã click vào truy cập */
+.click_me:visited {
+    color: red;
+}

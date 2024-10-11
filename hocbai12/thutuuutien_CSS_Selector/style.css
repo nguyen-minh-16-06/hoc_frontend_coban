@@ -1,0 +1,25 @@
+/* universal selector: Yếu nhất */
+* {
+    color: red;
+    font-size: 30px;
+}
+
+/* element selector: Yếu nhì */
+h1 {
+    color: blue;
+}
+
+/* class - pseudo class: Yếu vừa vừa */
+.demo {
+    color: green;
+}
+
+/* ID: Mạnh thứ 3 */
+#theh1 {
+    color: yellow;
+}
+
+/* !important: Mạnh nhất */
+* {
+    color: red !important;
+}

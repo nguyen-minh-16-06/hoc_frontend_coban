@@ -1,0 +1,13 @@
+/* SELECTOR:FIRST-CHILD
+p:first-child : Chọn các thẻ <p> là thẻ con đầu tiên */
+p:first-child {
+    color: red;
+    font-size: 30px;
+}
+
+/* SELECTOR:LAST-CHILD
+p:last-child : Chọn các thẻ <p> là thẻ con cuối cùng */
+p:last-child {
+    color: blue;
+    font-size: 20px;
+}

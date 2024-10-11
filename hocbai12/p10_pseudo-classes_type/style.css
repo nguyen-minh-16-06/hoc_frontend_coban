@@ -1,0 +1,13 @@
+/* p:first-of-type : Chọn các thẻ <p> xuất hiện đầu tiên trong thẻ cha
+Dù có bao nhiêu thẻ khác đứng trước thì nó vẫn sẽ chỉ đích danh đến thẻ <p> đầu tiên */
+p:first-of-type {
+    color: bisque;
+    font-size: 20px;
+}
+
+/* p:last-of-type : Chọn các thẻ <p> xuất hiện cuối cùng trong thẻ cha
+Dù có bao nhiêu thẻ khác đứng sau thì nó vẫn sẽ chỉ đích danh đến thẻ <p> cuối cùng */
+p:last-of-type {
+    color: pink;
+    font-size: 40px;
+}

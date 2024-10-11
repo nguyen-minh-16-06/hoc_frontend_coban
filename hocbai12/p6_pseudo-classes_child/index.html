@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SELECTOR:FIRST-CHILD, SELECTOR:LAST-CHILD</title>
+</head>
+
+<body>
+    <!-- SELECTOR:FIRST-CHILD, SELECTOR:LAST-CHILD
+     Ví dụ: p:first-child : Chọn các thẻ <p> là thẻ con đầu tiên -->
+
+    <!-- Emmet: div>p*3{Đoạn $} -->
+    <div>
+        <p>Đoạn 1</p>
+        <p>Đoạn 2</p>
+        <p>Đoạn 3</p>
+    </div>
+
+    <!-- Emmet: .demo>p*4{Nội dung $} -->
+    <div class="demo">
+
+        <!-- Trường hợp nếu như có 1 thẻ <h1> ở phía trên thẻ <p> thì có nghĩa là
+            thẻ <p> không phải là thẻ đầu tiên nữa -->
+        <h1>Ối dồi ôi</h1>
+
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+        <p>Nội dung 3</p>
+        <p>Nội dung 4</p>
+
+        <h2>Ối dồi ôi</h2>
+        <!-- Cũng tương tự trường hợp trên, nếu như có 1 thẻ <h2> ở phía dưới thẻ <p>
+            thì có nghĩa là thẻ <p> không phải là thẻ cuối cùng nữa -->
+    </div>
+</body>
+
+</html>

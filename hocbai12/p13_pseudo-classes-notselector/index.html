@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>:NOT(SELECTOR)</title>
+</head>
+
+<body>
+    <!-- :NOT(SELECTOR)
+     Ví dụ: .top:not(p) : Chọn các thẻ có class="top" loại trừ thẻ <p> -->
+<!--     -->
+    <div>
+        <h1 class="top">Nguyên Minh</h1>
+        <p class="top">KHDL&TTNT K4</p>
+        <h2 class="top">Là học sinh giỏi</h2>
+        <h3 class="top">Và đẹp trai nhất lớp</h3>
+
+        <!-- Đối với .top:not(:first-of-type) thì các thẻ này không phải là thẻ đầu tiên của các loại thẻ trên
+         nên vẫn tác động được -->
+        <p class="top">Không được tác động</p>
+        <p class="top">Không được tác động</p>
+        <h2 class="top">Không được tác động</h2>
+        <h3 class="top">Không được tác động too</h3>
+    </div>
+</body>
+
+</html>

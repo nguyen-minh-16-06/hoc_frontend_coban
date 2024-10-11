@@ -1,0 +1,16 @@
+/* SELECTOR:HOVER: Chọn các thẻ selector (p, h1->h6, a, img,...) khi di chuột qua */
+
+p:hover {
+    color: red;
+    font-size: 20px;
+}
+
+#line2:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+.demo:hover {
+    color: pink;
+    font-size: 20px;
+}

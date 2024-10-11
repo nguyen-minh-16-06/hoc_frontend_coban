@@ -1,0 +1,12 @@
+/* .top:not(p) : Chọn các thẻ có class="top" loại trừ thẻ <p> */
+.top:not(p) {
+    color: blue;
+    background-color: yellow;
+}
+
+/* .top:not(:first-of-type) thì các thẻ này không phải là thẻ đầu tiên của các loại thẻ trên
+         nên vẫn tác động được */
+.top:not(:first-of-type) {
+    color: red;
+    background-color: aqua;
+}

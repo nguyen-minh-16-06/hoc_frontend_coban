@@ -1,0 +1,11 @@
+/* odd: nhảy theo n lẻ từ dưới lên */
+p:nth-last-child(odd) {
+    color: red;
+    font-size: 20px;
+}
+
+/* even: nhảy theo n chẵn  từ dưới lên */
+p:nth-last-child(even) {
+    color: pink;
+    font-size: 20px;
+}
