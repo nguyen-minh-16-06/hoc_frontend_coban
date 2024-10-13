@@ -1,0 +1,35 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    background-color: red;
+    /*(Trên Dưới - Phải Trái) */
+    padding: 20px 30px;
+
+    /* (Trên - Phải Trái - Dưới) */
+    padding: 20px 30px 40px;
+
+    /* (Trên - Phải - Trái - Dưới) */
+    padding: 20px 30px 40px 50px;
+
+    /* p20 => padding: 20px */
+    /* padding: 20px; */
+
+    /* Từng đối số riêng lẻ: */
+    /* pt20 => padding-top: 20px */
+    /* padding-top: 20px; Thêm khoảng đệm ở phía bên trên 20px */
+
+    /* pb20 => padding-bottom: 20px */
+    /* padding-bottom: 20px; Thêm khoảng đệm ở phía bên dưới 20px */
+
+    /* pr20 => padding-right: 20px */
+    /* padding-right: 20px; Thêm khoảng đệm ở phía bên phải 20px */
+
+    /* pl20 => padding-left: 20px */
+    /* padding-left: 20px; Thêm khoảng đệm ở phía bên trái 20px */
+
+    /* padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px; */
+}

@@ -1,0 +1,12 @@
+.item {
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.item1 {
+    margin-right: 10px;
+}
+
+.item2 {
+    margin-left: 20px;
+}

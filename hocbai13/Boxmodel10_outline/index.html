@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Outline</title>
+</head>
+
+<body>
+    <!-- Outline: Là đường viền bao quanh mép ngoài cùng của đối tượng
+     Không làm tăng thêm kích thước phần tử
+     Đơn giản nó chỉ là 1 vùng bao bên ngoài, chiếm cả phần margin -->
+
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- Outline: không thể áp dụng vẽ theo nhiều chiều như border,
+     chỉ có thể truyền vào 3 đối số, có cú pháp nhất định như sau:
+     outline: width || style || color -->
+
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- outline: 50px solid blue; (Nếu outline lớn hơn margin thì chèn hết cả margin và chèn lên cả phần tiêu đề) -->
+    <!-- outline-offset: 10px; (Cách phần border ra 1 khoảng 10px, margin thì không quan tâm) -->
+
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- Nếu như phần tử của chúng ta không có border thì sao?
+     Thì sẽ tính từ border trở ra, hoặc hiểu nôm na là: bắt nguồn từ thằng tính được kích thước phần tử 
+     (kích thước phần tử bao gồm: border, padding, content), trong trường hợp padding và border không có thì tính từ content
+     và tương như như padding và border -->
+    <h1>Tiêu đề </h1>
+    <div class="box1">Nguyên Minh</div>
+</body>
+
+</html>

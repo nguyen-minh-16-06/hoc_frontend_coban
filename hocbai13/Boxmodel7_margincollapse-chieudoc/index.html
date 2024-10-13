@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Margin Collapse-Chiều dọc</title>
+</head>
+
+<body>
+    <!-- Margin Collpase: Là hiện tượng chồng lặp thuộc tính margin 
+     khi 2 phần tử liền kề cùng thiết lập margin với phần tử còn lại THEO CHIỀU DỌC
+     LƯU Ý: Chỉ theo CHIỀU DỌC thì bị hiện tượng này, còn CHIỀU NGANG thì không bị -->
+
+    <!-- Trong trường hợp 2 phần tử liền kề tác động margin ngược chiều lên nhau
+     thì trình duyệt sẽ lấy margin của phần tử lớn hơn -->
+
+    <!-- Cách khắc phục:
+     - Cách đơn giản: Chỉ dàn trang theo 1 chiều nhất quán, từ trên xuống dưới, hoặc từ dưới lên trên 
+     - Trong trường hợp bắt buộc dùng thì có thể dùng cách sau để xử lý margin collapse -->
+
+    <!-- 2 thẻ <div> này là con của thẻ <body> -->
+    <div class="box box1">Nguyên Minh 1</div>
+    <div class="box box2">Nguyên Minh 2</div>
+</body>
+
+</html>

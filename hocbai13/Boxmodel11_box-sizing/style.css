@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 150px;
+    padding: 20px;
+    border: 10px solid red;
+    margin-bottom: 10px;
+    /* box-sizing: content-box; (giá trị mặc định) */
+    /*  Khi nhập width, hight thì nó chính là kích thước của vùng content
+        Ví dụ:  width: 100px;
+                height: 150px;
+        Thì kích thước trên là kích thước của vùng content (100x150) có padding là 20px, border là 10px
+        Tổng cộng: 160x210 */
+    box-sizing: content-box;
+}
+
+.box2 {
+    /* box-sizing: border-box; (kích thước truyền vào chính là kích thước của phần tử luôn)
+        Ví dụ:  width: 100px;
+                height: 150px;
+        Thì kích thước trên là kích thước của phần tử (100x150), từ đây nó sẽ tính toán xem phần content còn bao nhiêu
+        (content:40x90, padding: 20, border: 10
+        Tổng cộng: 100x150 
+     Thực tế dự án, ta sử dụng border-box thường xuyên hơn, để kích thước khớp với thiết kế,
+     tránh phải tính toán lại phần nội dung */
+    box-sizing: border-box;
+}

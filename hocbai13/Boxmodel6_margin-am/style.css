@@ -1,0 +1,16 @@
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: -70px;
+}
+
+.avatar:first-child {
+    margin-left: 0;
+}
+
+.content {
+    background-color: pink;
+    padding: 40px;
+}

@@ -1,0 +1,11 @@
+/* Outline: không thể áp dụng vẽ theo nhiều chiều như border, 
+chỉ có thể truyền vào 3 đối số, có cú pháp nhất định như sau:
+outline: width || style || color */
+.box1 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    outline: 50px solid blue; /* Nếu outline lớn hơn margin thì chèn hết cả margin và chèn lên cả phần tiêu đề  */
+    outline-offset: 10px; /* Cách phần border ra 1 khoảng 10px, margin thì không quan tâm */
+    margin: 40px;
+}

@@ -1,0 +1,28 @@
+/* Trong trường hợp cả thẻ cha và thẻ con đều có margin cùng chiều thì thẻ nào lớn hơn 
+thì trình duyệt sẽ lấy thẻ đó
+Ví dụ:
+thẻ cha {
+    margin-top: 80px;
+}
+thẻ con {
+    margin-top: 70px;
+}
+=> Thì trình duyệt sẽ lấy thẻ cha
+ */
+/* Cách khắc phục cũng tương tự cách 2: 
+Thêm thuộc tính display: flex; vào thẻ <div> có class cha .box_parent chứa thẻ <h2> có class con .box_child */
+/* => .box_parent cách tiêu đề <h1> là 50px, .box_child cách lề của .box_parent là 70px */
+.box_parent {
+    background-color: pink;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_child {
+    background-color: blue;
+    width: 50%;
+    margin-top: 70px;
+    /* Khi tác động margin-top: 20px như thế này thì sẽ tác động lên cùng thẻ cha theo */
+}

@@ -1,0 +1,39 @@
+/* Cách khắc phục 2: Thêm thuộc tính display: flex; vào thẻ cha <body> chứa 2 khối <div> này */
+body {
+    /* df -> display: flex; */
+    display: flex;
+
+    /* fld -> flex-direction: ; */
+    flex-direction: column;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}
+
+.box1 {
+    margin-bottom: 50px;
+}
+
+.box2 {
+    margin-top: 70px;
+}
+
+/* Trong trường hợp 2 phần tử liền kề tác động margin ngược chiều lên nhau
+thì trình duyệt sẽ lấy margin của phần tử lớn hơn */
+
+/* ---------------------------------------------------------------------- */
+/* Cách khắc phục 1: Chỉ cần tác động lên 1 class thôi: */
+/* 
+.box2 {
+    margin-top: 120px;
+} 
+*/
+
+/* Hoặc
+.box1 {
+    margin-bottom: 50px;
+} 
+*/

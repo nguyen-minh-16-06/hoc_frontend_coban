@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    background-color: red;
+    padding: 20px 30px 40px 50px;
+    border: 10px solid blue;
+
+    /* Bo góc tường minh: */
+    /* Bo góc trên bên phải (botopr -> border-top-right-radius: ;)*/
+    border-top-right-radius: 30px;
+    /* Bo góc trên bên trái (botopl -> border-top-left-radius: ;) */
+    border-top-left-radius: 10px;
+    /* Bo góc dưới bên phải (bobori -> border-bottom-right-radius: ;) */
+    border-bottom-right-radius: 40px;
+    /* Bo góc dưới bên trái (bobole -> border-bottom-left-radius: ;) */
+    border-bottom-left-radius: 50px;
+
+    /* Bo góc cả 4 hướng: */
+    /* border-radius: 30px; */
+
+    /* Bo góc theo từng hướng (Không tường minh): */
+    /* border-radius: 30px 40px (Trên dưới - Phải Trái) */
+    /* border-radius: 30px 50px 70px (Trên - Phải Trái - Dưới) */
+    /* border-radius: 30px 50px 70px 80px (Trên - Phải - Trái - Dưới) */
+
+
+
+}

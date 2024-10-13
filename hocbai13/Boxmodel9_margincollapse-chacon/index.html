@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Margin Collapse - Quan hệ cha con</title>
+</head>
+
+<body>
+    <!-- Trong trường hợp cả thẻ cha và thẻ con đều có margin cùng chiều thì thẻ nào lớn hơn 
+     thì trình duyệt sẽ lấy thẻ đó
+     Ví dụ:
+     thẻ cha {
+        margin-top: 80px;
+     }
+     thẻ con {
+        margin-top: 70px;
+     }
+    => Thì trình duyệt sẽ lấy thẻ cha -->
+    <h1>Đây là thẻ tiêu đề</h1>
+    <div class="box_parent">
+        <h2 class="box_child">Thẻ h2</h2>
+    </div>
+</body>
+
+</html>

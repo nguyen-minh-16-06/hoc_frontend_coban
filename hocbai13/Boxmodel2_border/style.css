@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    background-color: red;
+    padding: 20px 30px 40px 50px;
+
+    /* Cú pháp tường minh */
+    border-width: 10px 20px 20px 20px;
+    border-style: solid dashed dotted groove;
+    border-color: violet;
+
+    /* Cú pháp viết tắt: */
+    /* border: 10px solid blue; */
+
+    /* Viền ở các bên: */
+    /* border-top: 10px solid pink;
+    border-left: 5px dashed black;
+    border-right: 5px dotted blue;
+    border-bottom: 5px dashed chocolate; */
+}
