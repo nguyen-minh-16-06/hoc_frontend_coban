@@ -1,0 +1,28 @@
+h1 {
+    width: 300px;
+    background-color: pink;
+
+    /* Làm cho đoạn văn bản không xuống dòng (kể cả chạm tới lề) */
+    white-space: nowrap;
+
+    /* Ẩn nội dung thừa */
+    overflow: hidden;
+
+    /* text-overflow: ellipsis; : Hiển thị dấu 3 chấm ở cuối văn bản, 
+    giúp người dùng hiểu rằng tiêu đề này dài quá và nó cắt bớt phần đằng sau đi
+    trông đẹp mắt hơn */
+    text-overflow: ellipsis;
+}
+
+h2 {
+    background-color: aqua;
+    overflow: hidden;
+    /* Nếu muốn hiển thị 2 dòng và quá dòng thứ 2 thì hiện dấu 3 chấm thì:
+    Có 3 thuộc tính cần phải ghi nhớ (Có thể note lại để sau này khi cần thì dùng
+    không cần phải học thuộc)  */
+    /* Đây là trường hợp tổng quát hơn bên trên, vì muốn 1 dòng thì gõ 1, 2 thì gõ 2, 3 thì gõ 3, n thì gõ n */
+    /* Giả sử muốn làm dấu 3 chấm ở dòng thứ n thì gõ vào đây */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}

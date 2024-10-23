@@ -1,0 +1,38 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    overflow: auto;
+    /* overscroll-behavior: auto; : Đây là trường hợp mặc định, 
+    khi cuộn thanh scrollbar xuống thì nó sẽ cuộn xuống thêm thanh ở bên ngoài */
+    overscroll-behavior: contain;
+}
+
+/* Nếu như chỉ muốn custom thanh scrollbar ở phía trong thì thêm .box vào phía trước */
+/* Ví dụ: .box::-webkit-scrollbar {
+                  width: 10px 
+}*/
+
+/* width: Độ rộng của scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track: cái thanh cuộn màu xám, có thể đổi màu */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Có thể bo viền cho thanh cuộn */
+    border-radius: 5px;
+}
+
+/* Handle: Cái thanh cuốn, khi ta sờ vào và kéo nó đi */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Có thể bo viền cho thanh cuốn */
+    border-radius: 5px;
+}
+
+/* Handle on hover: Khi di chuột vào thanh cuốn thì nó đổi màu */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
